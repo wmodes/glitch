@@ -29,6 +29,22 @@ body {
     --blend-color-5: #af4949;
 }
 
+.overlay-white {
+    background-color: white;
+    z-index: -100 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1000;
+}
+
 .glitched .contentTitle,
 .glitched .contentText {
     animation-name: glitch-text;
